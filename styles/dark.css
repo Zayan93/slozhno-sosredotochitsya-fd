@@ -5,33 +5,21 @@
 */
 
 :root.theme-dark {
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --brand-color: var(--color-purple-1, #db00ff);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
-  --highlight-color: var(--color-black-1, #000028);
-  --page-background-color: var(--color-black-1, #000028);
-  --page-background-image: url("../images/cover-image-dark.png");
+  --text-color: var(--color-pink-2, #f1b2ce); 
+  --brand-color: var(--color-purple-1, #db00ff); 
+  --secondary-color: var(--color-purple-2, #ff0070); 
+  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040); 
+  --accent-color: var(--color-purple-2, #ff0070); 
+  --highlight-color: var(--color-black-1, #000028); 
+  --page-background-color: var(--color-black-1, #000028); 
+  --page-background-image: url("../images/cover-image-dark.png"); 
   --rec-decor-visibility: visible;
+  
+  --paragraph-bg-color: #FF0070; 
+  --main-title-color: #FF0070; 
+  --description-text-color: #F1B2CE; 
+  --second-title-color: #000028;  
 }
-
-.theme-dark .page {
-  --bg-color: #f1b2ce;
-  --h1-title-color: #DB00FF;
-  --paragraph-bg-color: #FF0070;
-  --accent-color: #FF0070;
-  --accent-color-hover: rgba(255, 0, 112, 0.4);
-  --accent-color-button-hover: rgba(255, 0, 112, 0.4);
-  --main-title-color: #FF0070;
-  --description-text-color: #F1B2CE;
-  --second-title-color: #000028; 
-  --main-font-family: 'IBM Plex mono', sans-serif;
-  --bg-img: url(../images/cover-image-dark.png);
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
-
 
 .theme-dark .rec__container {
   display: inline;

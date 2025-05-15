@@ -73,30 +73,11 @@
   font-weight: var(--font-weight-regular);
 }
 
-/* ========== ССЫЛКИ ========== */
-
-.link {
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
-}
-
-.link:focus {
-  outline: none;
-}
-
-.link:focus-visible {
-  outline: 1px solid currentColor;
-}
-
-
 /* ========== HEADER ========== */
 
 .header {
   display: grid;
-  grid-template-rows: 1fr auto 1fr;
+  grid-template-rows: 1fr min-content 1fr;
   position: relative;
   padding: 20px;
   height: 100vh;     
@@ -376,7 +357,7 @@
   .section-causes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: fit-content 1fr;
+    grid-template-rows: auto auto;
   }
 
   .section-causes .card:first-of-type{
