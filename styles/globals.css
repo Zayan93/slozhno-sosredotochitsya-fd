@@ -44,8 +44,3 @@ a {
   box-shadow: none;
   text-align: center;
 }
-
-img {
-  max-inline-size: 100%;
-  block-size: auto;
-}

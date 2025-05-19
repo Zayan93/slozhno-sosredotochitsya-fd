@@ -6,6 +6,7 @@
 
 :root.theme-light {
   --text-color: var(--color-black-2, #353430); 
+  --border-color: var(--border-color-1, #353430); 
   --accent-color: var(--color-pink-4, #ff8dcb); 
   --brand-color: var(--color-pink-3, #ffc2e6); 
   --highlight-color: var(--color-black-2, #353430); 
@@ -18,7 +19,7 @@
   --rec-decor-visibility: hidden;
 }
 
-.theme-light .rec__container {
+.theme-light .rec-decor {
   display: none;
 }
 
@@ -26,6 +27,7 @@
 @media (prefers-color-scheme: light) {
   :root {
   --text-color: var(--color-black-2, #353430); 
+  --border-color: var(--border-color-1, #353430); 
   --accent-color: var(--color-pink-4, #ff8dcb); 
   --brand-color: var(--color-pink-3, #ffc2e6); 
   --highlight-color: var(--color-black-2, #353430); 
@@ -36,12 +38,12 @@
   --page-background-image: url("../images/cover-image-light.png"); 
   --rec-decor-visibility: hidden;
 
-  --paragraph-bg-color: #F1B2CE; 
+  --paragraph-bg-color: #FF8DCB; 
   --main-title-color: #353430; 
   --description-text-color: #353430; 
   --second-title-color: #353430;  
   }
-  .rec__container {
+  .rec-decor {
     display: none;
   }
 }
