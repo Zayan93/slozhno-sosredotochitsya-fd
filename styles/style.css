@@ -114,7 +114,7 @@
 
 .header__theme-menu-button {
   border: 1px solid transparent;
-  padding: 2px 12px;
+  padding: 3px 12px;
   color: var(--secondary-color, #ff0070);
   line-height: 18px;
   background: transparent;
@@ -439,8 +439,8 @@
   }
   
   .decorated-zone::after {
-    bottom: var(--main-gap);
-    left: var(--main-gap);
+    bottom: 20px;
+    left: 20px;
   }
 
   .section-why {
