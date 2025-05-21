@@ -26,6 +26,7 @@
   --font-weight-regular: 400;
   --font-weight-bold: 700;
   --line-height-text: 18px;
+  --border-line: #F1B2CE;
   --main-gap: 10px;
   --decorated-gap: 20px;
 }

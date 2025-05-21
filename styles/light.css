@@ -40,8 +40,9 @@
 
   --paragraph-bg-color: #FF8DCB; 
   --main-title-color: #353430; 
-  --description-text-color: #353430; 
-  --second-title-color: #353430;  
+  --description-text-color: #353430;
+  --second-title-color: #353430; 
+  --border-line: #353430;
   }
   .rec-decor {
     display: none;

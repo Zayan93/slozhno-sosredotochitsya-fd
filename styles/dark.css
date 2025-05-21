@@ -20,7 +20,8 @@
   --paragraph-bg-color: #FF0070; 
   --main-title-color: #FF0070; 
   --description-text-color: #F1B2CE; 
-  --second-title-color: #000028;  
+  --second-title-color: #000028;
+  --border-line: #ff0070;
 }
 
 .theme-dark .rec-decor {
